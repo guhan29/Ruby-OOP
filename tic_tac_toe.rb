@@ -86,7 +86,10 @@ while choice == "y" do
 			end
 		end
 
-		if game.check_winner
+        if game.check_winner
+            puts ""
+            game.display_board
+            puts ""
 			is_playing = false
 		end
 	end
